@@ -109,9 +109,7 @@ def create_readme(summary_stats, missing_values, corr_matrix, outliers, output_d
     try:
         with open(readme_file, 'w') as f:
             f.write("# Automated Data Analysis Report\n\n")
-            
            
-
 
             # Introduction Section
             f.write("## Introduction\n")
